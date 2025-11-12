@@ -1,0 +1,6 @@
+services:
+  higgins-core:
+    build: ./core
+    container_name: higgins-core
+    ports:
+      - "8000:8000"
