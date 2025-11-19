@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual environment
+venv/
+.env
+
+# Git metadata (no need to copy to container)
+.git
+.gitignore
+
+# Docker Compose overrides / temp files
+docker-compose.override.yml
+*.log
+*.pid
+*.sock
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual environment
+venv/
+.env
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Docker temporary files / build artifacts
+docker-compose.override.yml
+*.pid
+*.sock
+
+# Docker image directories (if any)
+*.tar
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
